@@ -1,0 +1,33 @@
+.wall{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+.counter{
+    color: black;
+    background: white;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin-top:20%;
+    margin-left: 45%;
+    line-height: 60px;
+    width: 170px;
+    height: 80px;
+    border: 5px solid #C0C0C0;
+}
+.button{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    user-select: none;
+    width: 83px;
+    height: 40px;
+    outline: none;
+    border: 2px solid #C0C0C0;
+    background:#696969;
+    margin: 15px;
+}
