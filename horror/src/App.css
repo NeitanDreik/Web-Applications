@@ -1,0 +1,170 @@
+.picture {
+  width: 100%;
+}
+
+.pictureContainer{
+  padding-bottom: 8%;
+}
+
+.App-Header {
+  font-family: Dorsa;
+}
+
+.Button { 
+  position:sticky;
+  font-family: 'Dorsa', sans-serif;
+  background-color: #171716;
+  color: #F12E3C;
+  text-align: left;
+  border: none;
+  text-decoration: none;
+  font-size: 13ch; 
+}
+
+.Text {
+  position: sticky;
+  left: 46%;
+  font-family: 'Dorsa', sans-serif;
+  color: #dddddd;
+  font-size: 13ch;
+  background-color: #171716;
+}
+
+.Text1 {
+  position: sticky;
+  left: 46%;
+  font-family: 'Dorsa';
+  color: #dddddd;
+  font-size: 10ch;
+  word-spacing: 5px;
+  background-color: #F12E3C;
+}
+
+.Text2 {
+  position: sticky;
+  font-family: 'Dorsa', sans-serif;
+  text-align: center;
+  color: #F12E3C;
+  font-size: 26ch;
+}
+
+.aboutUsText {
+  font-size: 21px;
+  font-family: Strong;
+  text-align: center;
+  color: #b6b6b6;
+  background-color: #252525;
+}
+
+.rules {
+  position: sticky;
+  text-align: left;
+  margin-left: 1%;
+  font-size: 21px;
+  font-family: Strong;
+  color: #b6b6b6;
+}
+
+.scroll{
+  position:relative;
+  top: 30px;;
+   left: 48%; 
+   width: 80px;  
+}
+
+.bottomText {
+  font-size: 21px;
+  font-family: Strong;
+  margin-left: 1%;
+  margin-top: 1%;
+  text-align: left;
+  color: #b6b6b6;
+}
+
+nav {
+  position:relative;
+  width: 100%;
+  line-height: 60px;
+  
+}
+
+nav ul {
+  line-height: 90px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #F12E3C;
+  font-size: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  top: -9%;
+}
+
+.contain {
+  width: 100%;
+}
+
+.smalltext{
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.row {
+  overflow:hidden;
+  width: 100%;
+}
+
+.questContainer {
+  transition: 450ms transform;
+  font-size: 0;
+  white-space: nowrap;
+  margin: 50.3125px 0;
+  padding-bottom: 30px;
+}
+
+.tile {
+  position: relative;
+  left:15%; 
+  margin-right: 200px;
+  font-size: 21px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 450ms all;
+  transform-origin: center;
+  color: #b6b6b6;
+  text-align: center;
+  font-family: Dorsa;
+  word-spacing: 3px;
+}
+
+.tileImage {
+  width: 570px;
+  height: 300px;
+}
+
+.questContainer:hover .tile:hover{
+  transform: scale(1.3);
+  opacity: 3;
+  color: #F12E3C;
+}
+
+
+
+
+
+
